@@ -1,0 +1,4 @@
+<!--pages/customTabBar/customTabBar.wxml-->
+<view class='container'>
+  <component-tabbar tabbar="{{tabbar}}" bind:switchTab="switchTab"></component-tabbar>
+</view>
