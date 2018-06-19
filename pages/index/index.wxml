@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+  <navigator url="/pages/customTabBar/customTabBar" hover-class="navigator-hover">
+    <view>自定义tabbar</view>
+  </navigator>
+</view>
