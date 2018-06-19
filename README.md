@@ -1,1 +1,1 @@
-this is read me
+微信小程序，自定义组件代
