@@ -1,0 +1,11 @@
+<!--components/listCard/listCard.wxml-->
+<view class='listCard' style='background-color: {{data.backgroundColor == null ? "#ffffff" : data.backgroundColor}}; height: {{data.cardHeight}}px'>
+  <block wx:for="{{data.list}}">
+    <navigator url='{{item.nav}}' hover-class='none' style='width: {{100 / data.list.length}}%'>
+    <view class='listCardItem'>
+      <image src='{{item.image}}' mode='widthFix'></image>
+      <text style='color: {{data.color == null ? "#2b2b2b" : data.color}};'>{{item.text}}</text>
+    </view>
+    </navigator>
+  </block>
+</view>

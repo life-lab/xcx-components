@@ -1,0 +1,21 @@
+/* components/listCard/listCard.wxss */
+.listCard {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.listCardItem{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.listCardItem image{
+  width: 40px;
+}
+.listCardItem text {
+  font-size: 14px;
+  line-height: 40px;
+  padding: 0 5px;
+}

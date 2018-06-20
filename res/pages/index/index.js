@@ -25,6 +25,10 @@ Page({
       {
         nav: "/pages/customNavCell/customNavCell",
         name: "自定义navCell"
+      },
+      {
+        nav: "/pages/customlistCard/customlistCard",
+        name: "自定义跳转选项卡"
       }
     ]
   },

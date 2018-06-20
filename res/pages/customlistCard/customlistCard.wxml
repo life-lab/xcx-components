@@ -1,0 +1,4 @@
+<!--pages/customlistCard/customlistCard.wxml-->
+<view class='container'>
+  <component-listCard data="{{cardData}}"></component-listCard>
+</view>

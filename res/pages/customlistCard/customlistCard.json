@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "自定义listCard",
+  "usingComponents": {
+    "component-listCard": "/components/listCard/listCard"
+  }
+}
