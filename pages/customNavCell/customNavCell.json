@@ -1,4 +1,5 @@
 {
+  "navigationBarTitleText": "自定义navCell",
   "usingComponents": {
     "component-navCellone": "/components/navCellone/navCellone"
   }
