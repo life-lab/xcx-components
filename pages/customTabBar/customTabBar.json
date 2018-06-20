@@ -1,4 +1,5 @@
 {
+  "navigationBarTitleText": "自定义tabbar",
   "usingComponents": {
     "component-tabbar": "/components/tabbar/tabbar"
   }
