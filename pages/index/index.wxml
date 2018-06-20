@@ -3,4 +3,7 @@
   <navigator url="/pages/customTabBar/customTabBar" hover-class="navigator-hover">
     <view>自定义tabbar</view>
   </navigator>
+  <navigator url="/pages/customNavCell/customNavCell" hover-class="navigator-hover">
+    <view>自定义navCell</view>
+  </navigator>
 </view>

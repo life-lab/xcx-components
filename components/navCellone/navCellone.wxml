@@ -1,0 +1,32 @@
+<!--components/navCellOne/navCellone.wxml-->
+<block wx:if="{{data.navTo != null && data.navTo != ''}}">
+<navigator url='{{data.navTo}}' hover-class='none'>
+  <view class='navCell'>
+    <view class='navCellItem' style='width: {{systemInfo.windowWidth - 16}}px; height: {{cellHeight}}px;'>
+      <view>
+        <image class='image-left' src='{{data.image}}' mode='widthFix'></image>
+      </view>
+      <view class='navContent' style='width: {{systemInfo.windowWidth - 64 - imageSize.leftImage.width - imageSize.rightImage.width}}px'>
+        <text class='text-one'>{{data.textOne}}</text>
+        <text wx:if="{{data.textTwo != null}}" class='text-two'>{{data.textTwo}}</text> 
+      </view>
+      <view>
+        <image class='image-right' src='/images/arrow.png' mode='widthFix'></image>
+      </view>
+    </view>
+  </view>
+</navigator>
+</block>
+<block wx:else>
+  <view class='navCell'>
+    <view class='navCellItem' style='width: {{systemInfo.windowWidth - 16}}px; height: {{cellHeight}}px;'>
+      <view>
+        <image class='image-left' src='{{data.image}}' mode='widthFix'></image>
+      </view>
+      <view class='navContent' style='width: {{systemInfo.windowWidth - 32 - imageSize.leftImage.width}}px'>
+        <text class='text-one'>{{data.textOne}}</text>
+        <text wx:if="{{data.textTwo != null}}" class='text-two'>{{data.textTwo}}</text> 
+      </view>
+    </view>
+  </view>
+</block>

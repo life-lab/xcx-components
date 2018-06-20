@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/customTabBar/customTabBar"
+    "pages/customTabBar/customTabBar",
+    "pages/customNavCell/customNavCell"
   ],
   "window": {
     "backgroundTextStyle": "light",
