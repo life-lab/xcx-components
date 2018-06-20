@@ -2,6 +2,7 @@
 <view class='tabbar' style='background-color: {{tabbar.backgroundColor}}'>
   <block wx:for="{{tabbar.list}}">
     <view class='tabbarItem' style='width: {{100 / tabbar.list.length}}%'>
+      <image src=''></image>
       <text style='color: {{selectIndex == index ? tabbar.selectedColor : tabbar.color}}; border-bottom: {{selectIndex == index ? "2px solid " + tabbar.selectedColor : none}}' bindtap='selectTabBar' data-index="{{index}}" >{{item.text}}</text>
     </view>
   </block>

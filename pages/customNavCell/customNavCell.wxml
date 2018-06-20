@@ -1,0 +1,4 @@
+<!--pages/customNavCell/customNavCell.wxml-->
+<view class='container'>
+  <component-navCellone wx:for="{{navDataList}}" data="{{item}}"></component-navCellone>
+</view>
